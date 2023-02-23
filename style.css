@@ -1,0 +1,112 @@
+:root {
+    --logo-white : rgb(252, 252, 252);
+    --border-color: rgb(247, 249, 250);
+    --logo-blue: rgb(88, 126, 204)
+}
+
+* {
+    font-family: 'Imbue', serif;    
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: rgb(247, 249, 250);
+}
+
+.logo-section {
+    background-image: url("pic.jpg");
+    width: 38vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.unsplash-link {
+    color: aliceblue;
+    position: absolute;
+    left: 165px;
+    top: 95vh;
+    font-weight: 200;
+}
+
+
+.nike-logo {
+    width: 10vw;
+    height: auto;
+    margin-top: 32px;
+    margin-left: 85px;
+}
+
+.logo-div {
+    background-color: rgba(24, 24, 24, 0.647);
+    width: inherit;
+    height: 15vh;
+    color: var(--logo-white);
+    font-size: 3.5rem;
+}
+
+.signup-section {
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid var(--border-color);
+    border-bottom: 2px solid var(--border-color);
+    width: inherit;
+    box-shadow: 3px 5px 8px rgba(158, 158, 158, 0.47);
+}
+
+.forms-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+.forms-section {
+    width: 62vw;
+}
+
+.inputWrapper label {
+    display: block;
+    margin-left: 25px;
+}
+
+.grid-form {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    column-gap: 2.5rem;
+    
+}
+
+input {
+    width: 190px;
+    height: 25px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+button {
+    color: var(--logo-white);
+    background-color: var(--logo-blue);
+    height: 2.3rem;
+    width: 10rem;
+    border: 1px solid var(--logo-blue);
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+p > a {
+    color: aliceblue;
+}
+.bolded {
+    font-style: italic;
+}
+p {
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+#login {
+    color: var(--logo-blue);
+}

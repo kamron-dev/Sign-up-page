@@ -6,8 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Form Project</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Imbue:opsz,wght@10..100,100;10..100,300;10..100,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="logo-section">
+        <div class="logo-div">
+            <img class="nike-logo" src="logo.png" alt="logo">
+            SWOOSH.
+        </div>
+        <p class="unsplash-link">Photo by <a target="_blank" href="https://unsplash.com/@piyushh29?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Piyush Haswani</a> on <a target="_blank" href="https://unsplash.com/photos/ipY69Mybxe8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </p>
+    </div>
+    <div class="forms-section">
+        <p class="forms-text">This is not a real online service! You know you need something <br> like this in your life to help you realize your deepest dreams. <br> Sign up  <span class="bolded">now</span> to get started. <br> <br> You <span class="bolded">know</span> you want to.</p>
+        <div class="signup-section">
+            <p class="forms-text">Let's do this!</p>
+            <form action="get" class="grid-form" id="create-account">
+                <div class="inputWrapper">
+                    <label for="fname">First name</label>
+                    <input type="text" name="fname" id="fname">
+                </div>
+                <div class="inputWrapper">
+                    <label for="lname">Last name</label>
+                    <input type="text" name="lname" id="lname"/>
+                </div>
+                <div class="inputWrapper">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email"/>
+                </div>
+                <div class="inputWrapper">
+                    <label for="phone">Phone number</label>
+                    <input type="tel" name="tel" id="tel"/>
+                </div>
+                <div class="inputWrapper">
+                    <label for="pwd">Password</label>
+                    <input type="text" name="pwd" id="pwd"/>
+                </div>
+                <div class="inputWrapper">
+                    <label for="pwd2">Confirm password</label>
+                    <input type="text" name="pwd2" id="pwd2">
+                </div>
+            </form>
+        </div>
+        <button type="submit" form="create-account">Create Account</button>
+        <p>Already have an account? <a id="login" href="">Log in</a></p>
+    </div>
 </body>
 </html>
